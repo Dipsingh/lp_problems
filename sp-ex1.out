@@ -1,0 +1,41 @@
+Problem:    sp
+Rows:       4
+Columns:    5
+Non-zeros:  13
+Status:     OPTIMAL
+Objective:  PATH_COST = 11 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 PATH_COST    B             11                             
+     2 NODE1        NS             1             1             =            13 
+     3 NODE2        NS             0            -0             =            -7 
+     4 NODE3        NS             0            -0             =            -5 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x12          NU             1             0             1            -1 
+     2 x13          B              0             0             1 
+     3 x23          B              1             0             1 
+     4 x24          B              0             0             1 
+     5 x34          NU             1             0             1            -1 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
