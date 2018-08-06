@@ -1,0 +1,12 @@
+\* 3 Node Single Commodity Flow *\
+Minimize
+OBJ: x12 + 2 x132
+Subject To
+_C1: x12 + x132 = 20
+Bounds
+0 <= x12 <= 10
+0 <= x132 <= 10
+Generals
+x12
+x132
+End

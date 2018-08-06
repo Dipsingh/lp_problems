@@ -1,0 +1,14 @@
+\* 3 Node Single Commodity Flow *\
+Minimize
+OBJ: z
+Subject To
+_C1: x12 + x132 = 110
+_C2: - x12 + 10 z >= 0
+_C3: - x132 + 100 z >= 0
+Bounds
+0 <= x12 <= 10
+0 <= x132 <= 100
+Generals
+x12
+x132
+End
