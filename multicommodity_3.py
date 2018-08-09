@@ -2,7 +2,7 @@ import pulp
 import math
 
 
-def min_max_link_utilization():
+def avg_link_utilization():
     h12 = 5
     h13 = 10
     h23 = 7
@@ -83,7 +83,7 @@ def min_max_link_utilization():
 
 
 def main():
-    min_max_link_utilization()
+    avg_link_utilization()
 
 
 if __name__ == "__main__":
